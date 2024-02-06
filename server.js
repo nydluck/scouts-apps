@@ -12,7 +12,7 @@ app.post('/send-form-goog', async (req, res) => {
   //console.log("Send Data:", sendData);
 
   try {
-    const apiUrl = 'https://script.google.com/macros/s/AKfycbx2Z_6I8g5Ano8CX-oc5R2QV1T-DH8duObo0Y2GwBn6yoTprWOO6zhkgQPhi_C_za-2/exec';
+    const apiUrl = 'https://script.google.com/macros/s/AKfycbyMgtwbQEDUZfBjehLxs2og1y5ya0_rFTmjDXm6IkZLcKBpTK8HhQky5u97oeRlZQBn/exec';
 
     // Make an API fetch call
     const response = await axios.post(apiUrl, JSON.stringify(sendData), {
